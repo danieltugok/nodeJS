@@ -1,0 +1,14 @@
+{
+  "name": "node-js",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "nodemon ./server.js" 
+  },
+  "author": "DK",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
