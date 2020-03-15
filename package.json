@@ -2,11 +2,12 @@
   "name": "node-js",
   "version": "1.0.0",
   "scripts": {
-    "start": "nodemon ./server.js" 
+    "start": "nodemon ./server.js"
   },
   "author": "DK",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^5.9.4"
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
