@@ -8,6 +8,21 @@ Iniciando projeto no Git.
 - Conectando o repositório local com o da web: >git remote add origin https://github.com/flaviomicheletti/github-foo.git
 - Sincronizando os repositórios: >git push origin master
 
+Gerando SSH key
+> ssh-keygen -t rsa -b 4096 -C "email_do_github"
+
+> eval "$(ssh-agent -s)"
+
+> ssh-add ~/.ssh/id_rsa
+
+
+$ sudo apt-get install xclip
+# Downloads and installs xclip. If you don't have `apt-get`, you might need to use another installer (like `yum`)
+
+$ xclip -sel clip < ~/.ssh/id_rsa.pub
+# Copies the contents of the id_rsa.pub file to your clipboard
+
+
 ##NODE
 >npm init
 
