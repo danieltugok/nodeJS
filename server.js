@@ -14,8 +14,6 @@ mongoose.connection.on('error', ( error )=>{
      console.error("ERRO: " + error.message); 
 });
 
-
-
 app.set('port', process.env.PORT || 7777);
 
 const server = app.listen(app.get('port'), ()=>{

@@ -1,0 +1,23 @@
+<html>
+<head>
+    {{#pageTitle}}
+    <title>{{ pageTitle }}</title>
+    {{/pageTitle}}
+    {{^pageTitle}}
+    <title> {{ h.defaultPageTitle }} - kldjlkjlkjlkj</title>
+    {{/pageTitle}}
+
+</head>
+
+<h1>HEADER</h1>
+
+<hr/>
+
+<ul>
+    {{#h.menu}}
+    <li><a href="{{ slug }}">{{ name }}</a></li>
+    {{/h.menu}}
+</ul>
+
+
+<hr/>
