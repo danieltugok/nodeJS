@@ -2,4 +2,6 @@
 
 <h1>PAGINA HOME - {{h.defaultPageTitle}}</h1>
 
-<p>Muito bom saber que você {{ nome }}, já tem {{idade}} anos</p>
+<p>Muito bom saber que você {{ userInfo.name }}, já tem {{idade}} anos</p>
+
+
