@@ -9,6 +9,7 @@ mongoose.connect(process.env.DATABASE, {
     useUnifiedTopology: true 
 });
 
+
 mongoose.Promise = global.Promise;
 mongoose.connection.on('error', ( error )=>{
      console.error("ERRO: " + error.message); 
